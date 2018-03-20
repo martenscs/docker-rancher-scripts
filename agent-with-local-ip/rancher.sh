@@ -23,7 +23,8 @@ SLEEP=5
 echo "### Server   = $HOST_URL"
 echo "### Version  = $AGENT_VERSION"
 echo "### Agent IP = $LOCAL_IP"
-curl https://releases.rancher.com/install-docker/1.12.sh | sh
+
+curl https://releases.rancher.com/install-docker/17.12.sh | sh
 
 # Rancher Agent Installation
 echo "# Debug"
